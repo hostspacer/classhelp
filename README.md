@@ -108,17 +108,15 @@ classhelp(el).addClass('foo').removeClass('bar');
 ```html
 https://cdn.jsdelivr.net/npm/classhelp@1.0.0/dist/classhelp.umd.min.js
 ```
-
-##### unpkg (UMD):
-```html
-https://unpkg.com/classhelp@1.0.0/dist/classhelp.umd.min.js
-```
-
 ##### jsDelivr (ESM):
 ```html
 https://cdn.jsdelivr.net/npm/classhelp@1.0.0/dist/classhelp.esm.min.js
 ```
 
+##### unpkg (UMD):
+```html
+https://unpkg.com/classhelp@1.0.0/dist/classhelp.umd.min.js
+```
 ##### unpkg (ESM):
 ```html
 https://unpkg.com/classhelp@1.0.0/dist/classhelp.esm.min.js
