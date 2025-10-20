@@ -100,3 +100,19 @@ import classhelp from 'classhelp';
 const el = document.querySelector('#myElement');
 classhelp(el).addClass('foo').removeClass('bar');
 ```
+
+### 🌐 CDN Links
+
+```html
+jsDelivr (UMD):
+https://cdn.jsdelivr.net/npm/classhelp@1.0.0/dist/classhelp.umd.min.js
+
+unpkg (UMD):
+https://unpkg.com/classhelp@1.0.0/dist/classhelp.umd.min.js
+
+jsDelivr (ESM):
+https://cdn.jsdelivr.net/npm/classhelp@1.0.0/dist/classhelp.esm.min.js
+
+unpkg (ESM):
+https://unpkg.com/classhelp@1.0.0/dist/classhelp.esm.min.js
+```
