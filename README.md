@@ -1,17 +1,25 @@
 # classhelp
 
-Chainable, cross‑browser class helper functions.
+**Chainable, cross-browser class helper functions.**
 
-## Features
-- add, remove, toggle, has (and aliases addClass/removeClass/toggleClass/hasClass)
-- Works with `classList` when available, falls back to `className` manipulation for older browsers
-- Supports chaining
-- Builds for modern (ESM) and legacy (UMD) usage
-- Comes with CDN + source maps
+---
 
-## Usage
+## ✨ Features
 
-### Browser global (UMD)
+- `add`, `remove`, `toggle`, `has` — with aliases: `addClass`, `removeClass`, `toggleClass`, `hasClass`
+- Uses `classList` when available, falls back to `className` for older browsers
+- Fully chainable API
+- Supports modern (ESM) and legacy (UMD) environments
+- CDN-ready with minified builds and source maps
+
+---
+
+## 🚀 Usage
+
+### 🔹 Browser Global (UMD)
+
+Using **jsDelivr**:
+
 ```html
 <script src="https://cdn.jsdelivr.net/npm/classhelp@1.0.0/dist/classhelp.umd.min.js"></script>
 <script>
@@ -19,44 +27,12 @@ Chainable, cross‑browser class helper functions.
   classhelp(el).add('visible').remove('hidden').toggle('active');
 </script>
 ```
+Using **unpkg**:
+
 ```html
 <script src="https://unpkg.com/classhelp@1.0.0/dist/classhelp.umd.min.js"></script>
 <script>
-  const el = document.querySelector('#myElelemt');
+  const el = document.getElementById('myElement');
   classhelp(el).toggleClass('active');
 </script>
-```
-
-
-### ES Module
-```html
-<script type="module">
-  import classhelp from 'https://cdn.jsdelivr.net/npm/classhelp@1.0.0/dist/classhelp.esm.min.js';
-
-  const el = document.getElementById('myElement');
-  classhelp(el).addClass('foo').removeClass('bar');
-  
-  if (classhelp(el).has('foo')) {
-    classhelp(el).removeClass('foo').addClass('bar');
-  }
-</script>
-```
-```html
-<script type="module">
-  import classhelp from 'https://unpkg.com/classhelp@1.0.0/dist/classhelp.esm.min.js';
-  const el = document.querySelector('#myElement');
-  classhelp(el).addClass('visible');
-</script>
-```
-### API
-```html
-const el = document.getElementById('myElement');
-classhelp(el).add('cls')
-classhelp(el).addClass('cls')
-classhelp(el).remove('cls')
-classhelp(el).removeClass('cls')
-classhelp(el).toggle('cls')
-classhelp(el).toggleClass('cls')
-classhelp(el).has('cls') → Boolean
-classhelp(el).hasClass('cls') → Boolean
 ```
