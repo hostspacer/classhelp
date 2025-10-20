@@ -36,3 +36,30 @@ Using **unpkg**:
   classhelp(el).toggleClass('active');
 </script>
 ```
+
+### 🔹 ES Module (Modern Browsers)
+
+Using **jsDelivr**:
+
+```html
+<script type="module">
+  import classhelp from 'https://cdn.jsdelivr.net/npm/classhelp@1.0.0/dist/classhelp.esm.min.js';
+
+  const el = document.getElementById('myElement');
+  classhelp(el).addClass('foo').removeClass('bar');
+
+  if (classhelp(el).has('foo')) {
+    classhelp(el).removeClass('foo').addClass('bar');
+  }
+</script>
+```
+Using **unpkg**:
+
+```html
+<script type="module">
+  import classhelp from 'https://unpkg.com/classhelp@1.0.0/dist/classhelp.esm.min.js';
+
+  const el = document.querySelector('#myElement');
+  classhelp(el).addClass('visible');
+</script>
+```
