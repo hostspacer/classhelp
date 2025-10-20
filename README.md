@@ -18,3 +18,26 @@ Chainable, cross‑browser class helper functions.
   const el = document.getElementById('myElement');
   classhelp(el).add('visible').remove('hidden').toggle('active');
 </script>
+```
+### ES Module
+```html
+import classhelp from 'classhelp';
+
+const el = document.getElementById('myElement');
+classhelp(el).addClass('foo').removeClass('bar');
+if (classhelp(el).has('foo')) {
+  // …
+}
+```
+### API
+```html
+-- const el = document.getElementById('myElement');
+-- classhelp(el).add('cls')
+-- classhelp(el).addClass('cls')
+-- classhelp(el).remove('cls')
+-- classhelp(el).removeClass('cls')
+-- classhelp(el).toggle('cls')
+-- classhelp(el).toggleClass('cls')
+-- classhelp(el).has('cls') → Boolean
+-- classhelp(el).hasClass('cls') → Boolean
+```
