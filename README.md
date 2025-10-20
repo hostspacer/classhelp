@@ -31,13 +31,13 @@ if (classhelp(el).has('foo')) {
 ```
 ### API
 ```html
--- const el = document.getElementById('myElement');
--- classhelp(el).add('cls')
--- classhelp(el).addClass('cls')
--- classhelp(el).remove('cls')
--- classhelp(el).removeClass('cls')
--- classhelp(el).toggle('cls')
--- classhelp(el).toggleClass('cls')
--- classhelp(el).has('cls') → Boolean
--- classhelp(el).hasClass('cls') → Boolean
+const el = document.getElementById('myElement');
+classhelp(el).add('cls')
+classhelp(el).addClass('cls')
+classhelp(el).remove('cls')
+classhelp(el).removeClass('cls')
+classhelp(el).toggle('cls')
+classhelp(el).toggleClass('cls')
+classhelp(el).has('cls') → Boolean
+classhelp(el).hasClass('cls') → Boolean
 ```
