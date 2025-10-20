@@ -63,3 +63,40 @@ Using **unpkg**:
   classhelp(el).addClass('visible');
 </script>
 ```
+
+### 🧩 API
+
+```html
+const el = document.getElementById('myElement');
+
+// Add classes
+classhelp(el).add('cls');
+classhelp(el).addClass('cls');
+
+// Remove classes
+classhelp(el).remove('cls');
+classhelp(el).removeClass('cls');
+
+// Toggle classes
+classhelp(el).toggle('cls');
+classhelp(el).toggleClass('cls');
+
+// Check for class presence
+classhelp(el).has('cls');       // → true / false
+classhelp(el).hasClass('cls');  // → true / false
+```
+
+### 📦 Installation (npm)
+
+#### bash - terminall
+```html
+npm install classhelp
+```
+##### Then use it in your JavaScript:
+
+```html
+import classhelp from 'classhelp';
+
+const el = document.querySelector('#myElement');
+classhelp(el).addClass('foo').removeClass('bar');
+```
