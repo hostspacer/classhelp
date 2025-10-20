@@ -1,5 +1,9 @@
 /*!
  * classhelp - chainable, cross-browser class helper (ES module)
+ * author: Shivasis Biswal
+ * copyright: Host Spacer (https://hostspacer.com)
+ * https://github.com/hostspacer/classhelp
+ * License: MIT
  */
 
 function getClassRegExp(className) {
