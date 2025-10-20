@@ -121,3 +121,15 @@ https://unpkg.com/classhelp@1.0.0/dist/classhelp.umd.min.js
 ```html
 https://unpkg.com/classhelp@1.0.0/dist/classhelp.esm.min.js
 ```
+
+### 🗂 Directory Structure
+
+```html
+dist/
+├── classhelp.umd.js
+├── classhelp.umd.min.js
+├── classhelp.umd.min.js.map
+├── classhelp.esm.js
+├── classhelp.esm.min.js
+└── classhelp.esm.min.js.map
+```
