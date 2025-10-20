@@ -19,15 +19,34 @@ Chainable, cross‑browser class helper functions.
   classhelp(el).add('visible').remove('hidden').toggle('active');
 </script>
 ```
+```html
+<script src="https://unpkg.com/classhelp@1.0.0/dist/classhelp.umd.min.js"></script>
+<script>
+  const el = document.querySelector('#myElelemt');
+  classhelp(el).toggleClass('active');
+</script>
+```
+
+
 ### ES Module
 ```html
-import classhelp from 'classhelp';
+<script type="module">
+  import classhelp from 'https://cdn.jsdelivr.net/npm/classhelp@1.0.0/dist/classhelp.esm.min.js';
 
-const el = document.getElementById('myElement');
-classhelp(el).addClass('foo').removeClass('bar');
-if (classhelp(el).has('foo')) {
-  classhelp(el).removeClass('foo').addClass('bar');
-}
+  const el = document.getElementById('myElement');
+  classhelp(el).addClass('foo').removeClass('bar');
+  
+  if (classhelp(el).has('foo')) {
+    classhelp(el).removeClass('foo').addClass('bar');
+  }
+</script>
+```
+```html
+<script type="module">
+  import classhelp from 'https://unpkg.com/classhelp@1.0.0/dist/classhelp.esm.min.js';
+  const el = document.querySelector('#myElement');
+  classhelp(el).addClass('visible');
+</script>
 ```
 ### API
 ```html
