@@ -26,7 +26,7 @@ import classhelp from 'classhelp';
 const el = document.getElementById('myElement');
 classhelp(el).addClass('foo').removeClass('bar');
 if (classhelp(el).has('foo')) {
-  // …
+  classhelp(el).removeClass('foo').addClass('bar');
 }
 ```
 ### API
