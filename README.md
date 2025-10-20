@@ -103,7 +103,7 @@ classhelp(el).addClass('foo').removeClass('bar');
 
 ## 📦 Install
 
-Get it from [npm](https://www.npmjs.com/package@1.0.0/classhelp) or use it via [jsDelivr](https://cdn.jsdelivr.net/npm/classhelp).
+Get it from [npm](https://www.npmjs.com/hostspacer/classhelp) or use it via [jsDelivr](https://cdn.jsdelivr.net/npm/classhelp).
 
 
 ### 🌐 CDN Links
