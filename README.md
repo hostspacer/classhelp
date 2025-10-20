@@ -133,3 +133,17 @@ dist/
 ├── classhelp.esm.min.js
 └── classhelp.esm.min.js.map
 ```
+
+### 📄 License
+```html
+MIT
+```
+
+### 💬 Contribute
+
+Suggestions, bug reports, and pull requests are welcome!
+
+##### Submit issues or improvements at:
+```html
+https://github.com/hostspacer/classhelp/issues
+```
