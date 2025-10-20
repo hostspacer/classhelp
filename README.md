@@ -101,6 +101,11 @@ const el = document.querySelector('#myElement');
 classhelp(el).addClass('foo').removeClass('bar');
 ```
 
+## 📦 Install
+
+Get it from [npm](https://www.npmjs.com/package/classhelp) or use it via [jsDelivr](https://cdn.jsdelivr.net/npm/classhelp).
+
+
 ### 🌐 CDN Links
 
 
@@ -141,9 +146,9 @@ MIT
 
 ### 💬 Contribute
 
-Suggestions, bug reports, and pull requests are welcome!
+#### Suggestions, bug reports, and pull requests are welcome!
+[contribute on GitHub](https://github.com/yourusername/classhelp).
 
 ##### Submit issues or improvements at:
-```html
-https://github.com/hostspacer/classhelp/issues
-```
+[Submit issues or improvements](https://github.com/hostspacer/classhelp/issues)
+
