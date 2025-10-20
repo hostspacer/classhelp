@@ -1,0 +1,30 @@
+{
+  "name": "classhelp",
+  "version": "1.0.0",
+  "description": "Chainable cross‑browser class helper functions",
+  "main": "dist/classhelp.umd.js",
+  "module": "dist/classhelp.esm.js",
+  "browser": "dist/classhelp.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "class",
+    "helper",
+    "classList",
+    "addClass",
+    "removeClass",
+    "toggleClass",
+    "legacy",
+    "browser"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.0"
+  }
+}
